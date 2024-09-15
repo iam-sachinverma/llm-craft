@@ -1,6 +1,14 @@
-.vfrc-launcher {
-  bottom: 24px;
-  right: 24px;
+.vfrc-widget {
+  position: fixed;
+  inset: 0px;
+  -webkit-font-smoothing: antialiased;
+  pointer-events: none;
+  z-index: 10000;
+}
+
+.vfrc-widget--launcher {
+  right: 25px;
+  bottom: 25px;
 }
 
 .vfrc-footer--watermark {
@@ -9,4 +17,10 @@
 
 .vfrc-footer {
   padding: 1rem;
+}
+
+@media (max-width: 1023px) {
+  .vfrc-proactive {
+    display: none;
+  }
 }

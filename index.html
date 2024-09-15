@@ -1118,7 +1118,16 @@
               image: "./img/favicon-32x32.png",
               stylesheet: "./css/agent.css"
             },
+          }).then(() => {
+          window.voiceflow.chat.proactive.clear(); 
+          window.voiceflow.chat.proactive.push({ 
+            type: 'text', 
+            payload: { message: 'AI Agent Solutions 🚀 Built for Your Needs 🎯' }
+          }, { 
+            type: 'text', 
+            payload: { message: 'Click on the chat to learn more!' }
           });
+        });
         };
         v.src = "https://cdn.voiceflow.com/widget/bundle.mjs";
         v.type = "text/javascript";
