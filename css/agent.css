@@ -1,0 +1,12 @@
+.vfrc-launcher {
+  bottom: 24px;
+  right: 24px;
+}
+
+.vfrc-footer--watermark {
+  display: none !important;
+}
+
+.vfrc-footer {
+  padding: 1rem;
+}
