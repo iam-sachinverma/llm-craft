@@ -4,6 +4,10 @@ html {
   font-family: sans-serif;
 }
 
+#cookiescript_badge {
+  display: none;
+}
+
 body {
   margin: 0;
 }
