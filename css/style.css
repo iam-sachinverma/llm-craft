@@ -8,6 +8,10 @@ body {
   margin: 0;
 }
 
+#cookiescript_badge {
+  display: none !important;
+}
+
 article,
 aside,
 details,
