@@ -5,7 +5,7 @@ html {
 }
 
 #cookiescript_badge {
-  display: none;
+  display: none !important;
 }
 
 body {
