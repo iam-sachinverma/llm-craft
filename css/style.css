@@ -2334,6 +2334,7 @@ a {
   padding: 2px;
   transition: all 0.4s;
   display: flex;
+  font-weight: 700;
 }
 
 .hero-logo-wrapper:hover {
@@ -2341,7 +2342,7 @@ a {
 }
 
 .hero-logo {
-  width: 96px;
+  width: 70px;
   height: auto;
 }
 
