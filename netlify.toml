@@ -1,0 +1,29 @@
+[[redirects]]
+  from = "/ai-agents"
+  to = "/ai-agents.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/ai-powered-business-chatbots"
+  to = "/ai-powered-business-chatbots.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/"
+  to = "/index.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/ai-agent-assistants"
+  to = "/ai-agent-assistants.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/ai-driven-ecommerce-solutions"
+  to = "/ai-driven-ecommerce-solutions.html"
+  status = 200
+  force = true
