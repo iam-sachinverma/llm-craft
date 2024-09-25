@@ -787,34 +787,11 @@
         var v = d.createElement(t),
           s = d.getElementsByTagName(t)[0];
         v.onload = function () {
-          window.voiceflow.chat
-            .load({
-              verify: { projectID: "66d3409f7f0b84ecf04ff112" },
-              url: "https://general-runtime.voiceflow.com",
-              versionID: "production",
-              assistant: {
-                extensions: [FormExtension],
-                title: "AI Agent | llm craft",
-                description: "Namaste! I'm AI agent, ready to assist you.",
-                image: "./img/favicon-32x32.png",
-                stylesheet: "./css/agent.css",
-              },
-            })
-            .then(() => {
-              window.voiceflow.chat.proactive.clear();
-              window.voiceflow.chat.proactive.push(
-                {
-                  type: "text",
-                  payload: {
-                    message: "AI Commerce Agents 🚀 Built for Your Needs 🎯",
-                  },
-                },
-                {
-                  type: "text",
-                  payload: { message: "Click on the chat to learn more!" },
-                }
-              );
-            });
+          window.voiceflow.chat.load({
+            verify: { projectID: "66ec45e9371bf5f501fc2b54" },
+            url: "https://general-runtime.voiceflow.com",
+            versionID: "production",
+          });
         };
         v.src = "https://cdn.voiceflow.com/widget/bundle.mjs";
         v.type = "text/javascript";
